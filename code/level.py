@@ -166,11 +166,13 @@ class Level:
         if self.game_paused:
             # display upgrade menu
             self.upgrade.display()
+            self.main_sound.stop()
         elif self.game_over:
             self.main_sound.stop()
             self.endgame.display()
         else:
             # run the game
+            self.main_sound.play()
             self.visible_sprites.update()
             self.visible_sprites.enemy_update(self.player)
             self.player_attack_logic()
