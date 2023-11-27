@@ -1,8 +1,14 @@
 # 8bit-cub
 
-## An 8-bit arcade style game that takes place inside the offices of cub ventures
+## An 8-bit arcade style adventure game
 
-## Tech Stack 
- - Python
- - Pygame
- - Tiled
+## Running locally
+Create the virtual environment
+
+    $ source venv/bin/activate
+    $ pip install 
+    $ python code/main.py
+    
+
+## Rules of the game
+
