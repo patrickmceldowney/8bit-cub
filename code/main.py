@@ -29,7 +29,7 @@ class Game:
                 self.running = False
 
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_m:
+                if event.key == pygame.K_p:
                     self.level.toggle_menu()
 
                 if self.level.game_over:
